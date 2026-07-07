@@ -1,26 +1,25 @@
 # High-Speed Multiply Accumulate (MAC) Unit
 
-## Overview
+### Overview
 
 The **Multiply Accumulate (MAC) Unit** is a fundamental arithmetic component used in digital systems. It performs multiplication followed by accumulation in a single operation, making it highly efficient for repetitive mathematical computations.
 
 ### Operation
 
-```text
-Accumulator = Accumulator + (A × B)
-```
+<div align="center">
+
+**Accumulator = Accumulator + (A × B)**
+
+</div>
 
 By combining multiplication and addition into a single hardware block, a MAC unit improves computational speed, reduces processing time, and enhances overall system performance.
+#
 
----
-
-## Objective
+### Objective
 
 The objective of this project is to design and implement a high-speed **Multiply Accumulate (MAC) Unit** using Verilog HDL. The design demonstrates efficient arithmetic computation while emphasizing speed, hardware efficiency, and reliability for digital signal processing applications.
 
----
-
-## Working Principle
+### Working Principle
 
 The MAC unit performs the following sequence of operations:
 
@@ -32,9 +31,7 @@ The MAC unit performs the following sequence of operations:
 
 This continuous operation enables efficient execution of repetitive arithmetic computations.
 
----
-
-## Key Features
+### Key Features
 
 - High-speed multiplication and accumulation
 - Continuous accumulation of results
@@ -44,9 +41,7 @@ This continuous operation enables efficient execution of repetitive arithmetic c
 - Verilog HDL implementation
 - Suitable for FPGA and ASIC designs
 
----
-
-## Applications
+### Applications
 
 MAC units are widely used in:
 
@@ -59,9 +54,7 @@ MAC units are widely used in:
 - Scientific Computing
 - FPGA and ASIC Designs
 
----
-
-## Advantages
+### Advantages
 
 - Faster arithmetic computation
 - Improved processing performance
@@ -70,9 +63,7 @@ MAC units are widely used in:
 - Efficient hardware resource utilization
 - Optimized for repetitive arithmetic operations
 
----
-
-## Main Components
+### Main Components
 
 The MAC unit consists of the following major components:
 
@@ -83,9 +74,7 @@ The MAC unit consists of the following major components:
 - Reset Logic
 - Control Logic
 
----
-
-## Future Enhancements
+### Future Enhancements
 
 - Pipelined MAC architecture
 - Floating-point MAC implementation
@@ -93,9 +82,8 @@ The MAC unit consists of the following major components:
 - Low-power optimization
 - SIMD-based architecture
 - FPGA and ASIC optimization
+#
 
----
-
-## Conclusion
+### Conclusion
 
 The **Multiply Accumulate (MAC) Unit** is one of the most important arithmetic building blocks in modern digital systems. Its ability to perform multiplication and accumulation efficiently makes it indispensable in applications such as digital signal processing, artificial intelligence, embedded systems, and communication technologies. This project demonstrates the design and implementation of a high-speed MAC unit, highlighting its significance in modern digital hardware.
